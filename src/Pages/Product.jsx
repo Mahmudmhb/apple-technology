@@ -33,7 +33,9 @@ const Product = ({ product }) => {
             <div className="badge badge-outline">
               <Link to={`/productdetails/${_id}`}>Details</Link>
             </div>
-            <div className="badge badge-outline">Update</div>
+            <div className="badge badge-outline">
+              <Link to={`/updateProducts/${_id}`}>update</Link>
+            </div>
           </div>
         </div>
       </div>
