@@ -1,0 +1,27 @@
+[
+    {
+      "brandName": "Apple",
+      "imageUrl": "https://pics.craiyon.com/2023-06-28/549679bf60464fc19e9d1c02fa75eb1b.webp"
+    },
+    {
+      "brandName": "Samsung",
+      "imageUrl": "https://seeklogo.com/images/S/samsung-logo-4BA7D9F6D7-seeklogo.com.png"
+    },
+    {
+      "brandName": "Sony",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg"
+    },
+    {
+      "brandName": "Microsoft",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png"
+    },
+    {
+      "brandName": "LG",
+      "imageUrl": "https://cdn.freebiesupply.com/images/large/2x/lg-logo-png-transparent.png"
+    },
+    {
+      "brandName": "Dell",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg"
+    }
+  ]
+  
