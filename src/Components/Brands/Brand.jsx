@@ -5,10 +5,10 @@ const Brand = ({ brand }) => {
   return (
     <div className="my-5">
       <Link to="/products">
-        <div className="card card-compact w-96 bg-base-100 shadow-lg mx-auto">
+        <div className="card card-compact h-52 items-center w-80 bg-base-100 shadow-lg mx-auto">
           <figure>
             <img
-              className="h-32 w-40 rounded mt-5"
+              className=" w-40 rounded mt-5"
               src={brand.imageUrl}
               alt={brand.brandName}
             />

@@ -51,6 +51,23 @@ const UpdateProducts = () => {
       <h1 className="text-center text-5xl font-bold my-5 uppercase">
         Update your Products
       </h1>
+      <div className="card w-96 mx-auto bg-base-100 shadow-xl">
+        <figure className="px-10 pt-10">
+          <img
+            src={updateLoader.imagelink}
+            alt="Shoes"
+            className="rounded-xl"
+          />
+        </figure>
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">{updateLoader.name}</h2>
+          <p>{updateLoader.short}</p>
+          <div className="card-actions">
+            {/* <Link to={`/productdetails/${updateLoader._id}`}>Details</Link> */}
+          </div>
+        </div>
+      </div>
+
       <form onSubmit={handleUpdateProducts}>
         <div className="   my-5 gap-3">
           <div className="w-full my-5">

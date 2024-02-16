@@ -1,11 +1,14 @@
 import React from "react";
 import logo from "../../assets/549679bf60464fc19e9d1c02fa75eb1b.webp";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-neutral text-white">
         <aside>
-          <img className="w-12 h-12 rounded-full" src={logo} alt="" />
+          <Link to="/">
+            <img className="w-12 h-12 rounded-full" src={logo} alt="" />
+          </Link>
           <p>
             Apple Industries Ltd.
             <br />

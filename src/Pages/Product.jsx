@@ -103,11 +103,10 @@ const Product = ({ product }) => {
             {rating}
           </span>
         </div>
-        <div className="">
-          <span className="text-3xl font-bold text-gray-900 dark:text-white">
-            {price}
-          </span>
-          <a href="#" className=""></a>
+        <span className="text-3xl my-2 font-bold text-gray-900  dark:text-white">
+          {price}
+        </span>
+        <div>
           <div className="card-actions   items-center justify-between rounded-lg bg-cyan-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-800 focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800">
             <div className="badge badge-outline">
               <Link to={`/productdetails/${_id}`}>Details</Link>

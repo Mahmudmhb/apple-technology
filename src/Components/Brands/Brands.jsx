@@ -9,8 +9,8 @@ const Brands = () => {
       .then((data) => setBrands(data));
   }, []);
   return (
-    <div>
-      <h1 className="text-5xl uppercase text-center py-10 font-bold">
+    <div className="w-5/6 mx-auto">
+      <h1 className="text-5xl uppercase text-center py-24 font-bold">
         Top technology <br></br>
         <span className="text-[#06c] my-3"> brands in the world </span>
       </h1>
