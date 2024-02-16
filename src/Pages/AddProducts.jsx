@@ -42,7 +42,7 @@ const AddProducts = () => {
         ADD your New Products
       </h1>
       <form onSubmit={handleAddToProducts}>
-        <div className="flex  my-5 gap-3">
+        <div className="md:flex  my-5 gap-3">
           <div className="w-full">
             <label className="input input-bordered flex items-center gap-2">
               Name:
@@ -68,7 +68,7 @@ const AddProducts = () => {
             </label>
           </div>
         </div>
-        <div className="flex  my-5 gap-3">
+        <div className="md:flex  my-5 gap-3">
           <div className="w-full">
             <label className="input input-bordered flex items-center gap-2">
               Brand Name:
@@ -94,7 +94,7 @@ const AddProducts = () => {
             </label>
           </div>
         </div>
-        <div className="flex  my-5 gap-3">
+        <div className="md:flex  my-5 gap-3">
           <div className="w-full">
             <label className="input input-bordered flex items-center gap-2">
               Price:
@@ -120,7 +120,7 @@ const AddProducts = () => {
             </label>
           </div>
         </div>
-        <div className="flex  my-5 gap-3">
+        <div className="md:flex  my-5 gap-3">
           <div className="w-full">
             <label className="input input-bordered flex items-center gap-2">
               Rating:

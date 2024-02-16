@@ -29,7 +29,7 @@ const ProductDetails = () => {
       });
   };
   return (
-    <div className="flex w-4/5 mx-auto gap-4 justify-between">
+    <div className="md:flex w-4/5 mx-auto gap-4 justify-between">
       <div className="w-full">
         <img src={imagelink} alt="" />
         <p>{short}</p>

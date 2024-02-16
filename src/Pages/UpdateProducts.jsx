@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const UpdateProducts = () => {
   const updateLoader = useLoaderData();
@@ -34,7 +35,13 @@ const UpdateProducts = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        alert("SuccessFully Updated Products");
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Your Product has been saved",
+          showConfirmButton: false,
+          timer: 1500,
+        });
         // form.reset();
       });
     // console.log(addtoProduct);
